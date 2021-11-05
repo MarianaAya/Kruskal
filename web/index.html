@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <script src="js/index.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Algoritmo de Kruskal</h1>
+        </header>
+        <div class="div-conteudo">
+            <div class="div-consultar">
+                <div class="div-vertices">
+                        <div class="div-input">
+                            <label class="">Origem: </label><input class="v1" type="number" step="1" name="v1" id="v1"/>
+                            <label class="">Destino: </label><input class="v2" type="number" step="1" name="v2" id="v2"/>
+                            <label class="">Valor: </label><input class="valor" type="number" step="1" name="valor" id="valor"/>
+                            <button onClick="addVertice()">Adicionar</button>
+                        </div>
+                        
+                        <div id="msg-erro">
+                            
+                        </div>
+                    <table class="table-vertices">
+                        <thead>
+                          <tr>
+                            <th>Origem</th>
+                            <th>Destino</th>
+                            <th>Valor</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody id="corpoTabela">
+
+                        </tbody>
+                    </table>
+                </div>
+               
+                <button class="button-opcoes" onclick="kruskal()">Kruskal</button>
+                <div class="div-buttonteste">
+                    <button class="button-opcoes" onclick="teste()">Teste</button>
+                    <button class="button-opcoes" onclick="teste1()">Teste1</button>
+                    <button class="button-opcoes" onclick="teste2()">Teste2</button>
+                    <button class="button-opcoes" onclick="teste3()">Teste3</button>
+                    <button class="button-opcoes" onclick="teste4()">Teste4</button>
+                    <button class="button-opcoes" onclick="teste5()">Teste5</button>
+                    <button class="button-opcoes" onclick="teste6()">Teste6</button>
+                    <button class="button-opcoes" onclick="teste7()">Teste7</button>
+                </div>
+                
+            </div>
+            <div class="div-grafo" id="div-grafo">
+                
+            </div>
+            <div class="div-resposta" id="div-resposta">
+                
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    overflow: auto;
+    
+    
+}
+header{
+    background-color: #e6f2ff;
+}
+h1{
+    margin: 0;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #0033cc;
+    color: #ffffff
+}
+
+.div-conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
+    background-color: #ffffff;
+    
+}
+
+.div-consultar{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    
+    border-radius: 25px;
+    box-shadow: 0 0 1em rgb(26, 102, 255);
+}
+
+
+.div-consultar .button-opcoes{
+    width: 40%;
+    background-color: #80bfff;
+    color: rgb(216, 216, 216);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+ 
+
+}
+.div-consultar button:hover{
+    background-color: rgb(0, 81, 255);
+    color: white;
+}
+
+.div-buttonteste{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div-resposta{
+    background-color: #ffffff;
+    margin-top: 5%;
+    width: 80%;
+    box-shadow: 0 0 1em rgb(26, 102, 255);
+    
+}
+.div-grafo{
+    background-color: #ffffff;
+    margin-top: 5%;
+    width: 80%;
+    box-shadow: 0 0 1em rgb(26, 102, 255);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.div-listaAdjacente{
+    width: 100%;
+    padding: 2%
+}
+
+
+.div-bloco{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.div-fila{
+    width: 90%;
+    margin: 2%;
+}
+.div_tabela{
+    margin: 2%;
+    width: 90%;
+    
+}
+.div-tabela thead{
+    background-color: rgb(255,255,255);
+}
+.div-tabela tbody{
+    background-color: rgb(255,255,255);
+}
+.div-tabela tbody td{
+    background-color: #cce6ff;
+}
+.div-vertices{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.table-vertices thead th{
+    background-color: #80bfff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.table-vertices{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.v1{
+    width: 15%
+}
+.v2{
+    width: 15%
+}
+.valor{
+    width: 15%
+}
+.div-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.div-input .v1{
+    margin-right: 15px
+}
+.div-input .v2{
+    margin-right: 15px
+}
+.div-input .valor{
+    margin-right: 15px
+}
+
+.div-tabela{
+    width: 40%
+}
+.tabela{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.tabela thead{
+    width: 50%;
+    background-color: rgb(51, 153, 255)
+}
+
+
+.div-lista{
+    margin: 5px;
+    display: flex;
+    flex-flow: row;
+}
+.div-no{
+    padding: 4px;
+    background-color: #0033cc;
+    color: white;
+    margin-right: 5px
+    
+}
+.div-lig{
+    
+
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div-ligno{
+    padding: 4px;
+    background-color: #0033cc;
+    color: white;
+}
+.div-ligvalor{
+    padding: 4px;
+    background-color:#66b3ff;
+
+}
+.div-resplista{
+    width: 90%;
+    margin:2%
+        
+}
+
+.p-custo{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
